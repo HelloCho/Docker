@@ -39,7 +39,7 @@ $ sudo apt-get install docker-ce docker-ce-cli containerd.io
 
 -> Mac / Windows
 
-[Docker](https://docs.docker.com)
+   [install docker for win / mac](https://docs.docker.com)
 
 ### Docker 기본 명령어
 
