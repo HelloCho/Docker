@@ -94,6 +94,18 @@ sudo apt install docker-ce
 
 ### Docker & Oracle database 사용 예
 
+1. docker search oracle-xe-11g
+
+2. docker pull *oracleinanutshell/oracle-xe-11g*
+
+3. docker run -d -p 59160:22 -p 59161:1521 --name oracle oracleinanutshell/oracle-xe-11g
+
+4. docker ps
+
+5. docker exec -it bash
+
+6. Sqlplus -> system / oracle
+
 
 ### Docker 참조
 [Get Started the Docker](https://docs.docker.com/get-started/)
