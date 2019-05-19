@@ -98,11 +98,11 @@ sudo apt install docker-ce
 
 2. docker pull *oracleinanutshell/oracle-xe-11g*
 
-3. docker run -d -p 59160:22 -p 59161:1521 --name oracle oracleinanutshell/oracle-xe-11g
+3. docker run -d -p 59160:22 -p 59161:1521 --name **oracle** oracleinanutshell/oracle-xe-11g
 
 4. docker ps
 
-5. docker exec -it bash
+5. docker exec -it ( **container name / id** ) bash
 
 6. Sqlplus -> system / oracle
 
