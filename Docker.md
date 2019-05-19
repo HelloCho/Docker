@@ -81,7 +81,7 @@ $ sudo apt-get install docker-ce docker-ce-cli containerd.io
 
 	`docker run -d -p 3360:3360 mysql -name cho-mysql`
 
--> 컨테이너 중지 / 재실행
+> 컨테이너 중지 / 재실행
 
 	`docker stop ( 실행 중 이미지 )`
 
@@ -113,7 +113,7 @@ $ sudo apt-get install docker-ce docker-ce-cli containerd.io
 
 4. docker ps
 
-5. docker exec -it ( **container name / id** ) bash
+5. docker exec -it **oracle**(= **container name / id** ) bash
 
 6. Sqlplus -> system / oracle
 
