@@ -9,7 +9,7 @@
 
 ### Docker 설치
 
--> Ubuntu ! [Install docker for ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
+> Ubuntu ! [Install docker for ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 
 ```console
 $ sudo apt-get remove docker docker-engine docker.io containerd runc
@@ -37,26 +37,26 @@ $ sudo apt-get update
 $ sudo apt-get install docker-ce docker-ce-cli containerd.io
 ```
 
--> Mac / Windows
+> Mac / Windows
 
    [install docker for win / mac](https://docs.docker.com)
 
 ### Docker 기본 명령어
 
--> 상태 확인 하기
+> 상태 확인 하기
 
 	`docker ps`
 
 	`docker images`
 
 
--> 이미지 받기
+> 이미지 받기
 
 	`docker search (받을 이미지)`  : 이미지 검색
 
 	`docker pull (받을 이미지)` : 이미지 다운
 
-->  상태 확인
+>  상태 확인
 
 	`docker ps`
 
@@ -65,7 +65,7 @@ $ sudo apt-get install docker-ce docker-ce-cli containerd.io
  
 	`docker images`
 
-->  컨테이너 실행
+>  컨테이너 실행
 
 	`docker run ( 설치된 이미지 )`
 
@@ -89,7 +89,7 @@ $ sudo apt-get install docker-ce docker-ce-cli containerd.io
 
 	`docker start ( 실행 할 이미지 )`
 
--> 컨테이너 이미지 삭제
+> 컨테이너 이미지 삭제
 
 	`docker rm ( 컨테이너 )` 
 
